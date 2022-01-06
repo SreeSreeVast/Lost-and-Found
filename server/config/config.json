@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "dbmasteruser",
+    "password": "b9=(8k-cOaP>-9a$N}gsX;!nR+6i=gWi",
+    "database": "LostAndFound",
+    "host": "ls-e37a3ddd5f99a8e9c1100a061f5554ac79ac04c6.cn5ycdfnko6g.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

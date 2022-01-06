@@ -1,0 +1,48 @@
+.Post{
+    text-align: center;
+}
+
+.ItemForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.ItemForm input{
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.buttonpost{
+    border-width: 3px;
+    width: 150px;
+    height: 50px;
+    background-color: lavenderblush;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.buttonpost:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.imgupload{
+    max-width: 100%;
+    max-height: 50vh;
+    margin: auto;
+}
+
+#clipArt{
+    background-color: black;
+    width: 250px;
+    height: 200px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
